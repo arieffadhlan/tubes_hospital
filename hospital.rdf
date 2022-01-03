@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:dc="http://purl.org/dc/terms/">
+
+    <foaf:LocationalProfileDocument rdf:about="http://localhost/tubes_hospital/hospital.rdf">
+        <rdfs:label>Primary Children's Hospital Profile</rdfs:label>
+        <foaf:maker rdf:resource="http://localhost/tubes_hospital/" />
+        <foaf:primaryTopic rdf:resource="http://localhost/tubes_hospital/" />
+    </foaf:LocationalProfileDocument>
+
+    <foaf:Location rdf:about="http://localhost/tubes_hospital/">
+        <foaf:name>Primary Children's Hospital</foaf:name>
+        <foaf:title>Hospital</foaf:title>
+        <owl:sameAs>
+            <foaf:Location rdf:about="http://dbpedia.org/resource/Primary_Children's_Hospital">
+                <rdfs:label>Primary Children's Hospital</rdfs:label>
+                <foaf:homepage rdf:resource="http://dbpedia.org/resource/Primary_Children's_Hospital" />
+            </foaf:Location>
+            <foaf:Anggota rdf:about="http://localhost/tubes_hospital/">
+                <foaf:anggota1>Muhammad Arief Fadhlan</foaf:anggota1>
+                <foaf:anggota2>Monica Juliana Eirene Tampubolon</foaf:anggota2>
+                <foaf:anggota3>Dorma Ulina Pasaribu</foaf:anggota3>
+                <foaf:anggota4>Irwansyah Sarumaha</foaf:anggota4>
+                <foaf:anggota5>Mhd. Ali Hasan Rizky</foaf:anggota5>
+                <foaf:anggota6>Aulia Rahman Partomuan Sihite</foaf:anggota6>
+            </foaf:Anggota>
+            <foaf:NIM rdf:about="http://localhost/tubes_hospital/">
+                <foaf:nim1>201402054</foaf:nim1>
+                <foaf:nim2>201402081</foaf:nim2>
+                <foaf:nim3>201402039</foaf:nim3>
+                <foaf:nim4>201402048</foaf:nim4>
+                <foaf:nim5>201402009</foaf:nim5>
+                <foaf:nim6>191402109</foaf:nim6>
+            </foaf:NIM>
+        </owl:sameAs>
+    </foaf:Location>
+</rdf:RDF>

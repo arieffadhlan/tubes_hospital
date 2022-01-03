@@ -1,0 +1,20 @@
+.table-primary {
+	--bs-table-bg: #012970;
+	color: #fff;
+}
+
+.dataTable-sorter::before {
+	border-top: 4px solid #fff;
+}
+
+.dataTable-sorter::after {
+	border-bottom: 4px solid #fff;
+}
+
+.page-item.active .page-link {
+	z-index: 3;
+	color: #fff;
+	border-radius: 6px;
+	background-color: #012970;
+	border-color: #012970;
+}
